@@ -33,7 +33,6 @@ body {
 .image {
   height: 100px;
   width: 100px;
-  background-image: url(/img/enseñar.jpg);
   position: relative;
   top: 200px;
   margin-left: 170px;

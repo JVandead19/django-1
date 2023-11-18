@@ -35,7 +35,7 @@ li{font-size: 1.30em;}
 }
 
  #historia .img-container{
-  background-image: url(img/socorro\ gonzalz\ guinan.jpg);
+  background-image: url("img/socorro.jpg");
   background-size: cover;
   border-radius: 10px;
   width:280px;
@@ -43,7 +43,7 @@ li{font-size: 1.30em;}
 }
 
 #mision_vision{
-  background-image: url(img/1111.png);
+  background-image: url("img/1111.png");
   background-size: cover;
 
   text-align: center;
@@ -88,7 +88,7 @@ li{font-size: 1.30em;}
 }
 
  #valores .img-container{
-  background-image: url(img/d4ecc2b5bb15a8ce280aab963361de4d-medalla-de-honor-icono-azul.png);
+  background-image: url("img/d4ecc2b5bb15a8ce280aab963361de4d-medalla-de-honor-icono-azul.png");
   background-size: cover;
   border-radius: 20px;
   width: 500px;
@@ -202,16 +202,6 @@ body{
   position: absolute;
   width: 100%;
   height: 100%;
-}
-.caja1 {
-  background: url("img/nueva_residencial.jpg");
-  background-size: 100% 100%;
-}
-.caja2 {
-  background: url("img/grupo_de_jovenes.jpg");
-  background-size: 110% 90%;
-  transition: 0.6s;
-  clip-path: polygon(0 0, 100% 0, 54% 48%, 0% 100%);
 }
 .caja2:hover {
   clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
