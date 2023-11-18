@@ -75,7 +75,7 @@ def menu(request):
     })
 @login_required
 def perfil(request,codigo):
-    name_user = AuthUser.objects.filter(pk=codigo)
+    name_user = User.objects.filter(pk=codigo)
     datos_estudiante = Estudiante.objects.filter(userr=request.user)
     return render(request, 'usuario.html',{
         'datos_estudiante': datos_estudiante,
