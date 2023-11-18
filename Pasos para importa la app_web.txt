@@ -1,0 +1,16 @@
+Pasos para importar la app_web:
+
+- Tener instalado python
+
+- Tener instalado VC
+
+- Tener ya creado el archivo "requirements.txt" en la carpeta app_web con (pip freeze "requirements.txt")
+
+- Pasar la carpeta donde se encuentra la app_web, excepto la carpeta venv
+
+- Instalar Virtualenv y realizar un nuevo entorno virtual (pip install virtualenv), se crea el entorno virtual mediante
+  cmd. Se dirijen a la carpeta donde se encuentra al app_web y se ejecuta el siguiente comando: py -m venv venv
+
+- Instalar las librerias mediante el archivo "requirements.txt" con el comando: pip install -r "requirements.txt"
+
+- Listo paila
